@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <style>
+             header {
+            border: 3px solid rgb(240, 234, 234);
+            display: flex;
+            padding: 15px;
+            background-color: rgb(240, 234, 234);
+            height: 60px;
+            width: 95vw;
+
+        }
+
+        .log {
+            align-items: center;
+        }
+
+        .logo {
+            border: 2px solid black;
+            height: 55px;
+            width: 60px;
+            border-radius: 30px;
+            font-size: 30px;
+            font-weight: bolder;
+            font-style: italic;
+            background-color: orange;
+
+        }
+
+        h2 {
+
+            font-weight: bolder;
+            margin-left: 10px;
+        }
+
+        h4 {
+            margin-top: 50px;
+            text-indent: -75px;
+        }
+
+
+
+
+        nav {
+            display: flex;
+            margin-left: 40px;
+            margin-right: 60px;
+
+        }
+
+        a {
+            margin-left: 30px;
+            align-self: center;
+
+        }
+
+        .down2 {
+            height: 40px;
+            width: 186px;
+            align-self: center;
+            background-color: orange;
+            border-color: orange;
+            margin-left: 134px;
+        }
+
+        /* ....... */
+        select {
+            border: none;
+            background-color: rgb(240, 234, 234);
+
+        }
+
+
+        .icon {
+            margin-left: 35px;
+            width: 202px;
+            display: flex;
+            flex-direction: row;
+            border: none;
+            background-color: rgb(240, 234, 234);
+            justify-content: center;
+
+
+
+        }
+
+        span {
+            background-color: rgb(240, 234, 234);
+            color: black;
+            align-self: center;
+            font-size: 25px;
+
+        }
+
+        /* ........... */
+
+
+        .bar {
+            display: flex;
+
+        }
+
+
+        .glasses {
+            align-self: center;
+            width: 50px;
+            height: 50px;
+            border: none;
+            background-color: rgb(240, 234, 234);
+            font-size: 15px;
+
+        }
+        h1 {
+            text-align: center;
+            font-size: 55px;
+
+        }
+
+        .discrip {
+            text-align: center;
+            padding: 0px;
+            color: gray;
+        }
+
+        .line1 {
+            margin-bottom: 0px;
+        }
+
+        .line2 {
+            margin-top: 0px;
+        }
+
+        /* download button code */
+        .vers {
+            margin-top: 20px;
+            text-align: center;
+
+        }
+
+        .version {
+            height: 44px;
+            width: 263px;
+            border: 2px solid orange;
+            background-color: orange;
+            border-radius: 4px;
+        }
+
+        /* release date code */
+        .main {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            margin-top: 30px;
+            margin-right: 151px;
+        }
+
+        .rel {
+            display: grid;
+            justify-self: end;
+            margin-right: 20px;
+
+        }
+
+        .release {
+            display: grid;
+            width: 54px;
+            border: 2px solid black;
+            border-radius: 30px;
+            place-content: center;
+            height: 54px;
+            background-color: orange;
+            font-size: 25px;
+            font-weight: bolder;
+        }
+
+        h3,
+        small {
+            color: grey;
+            font-size: 20px;
+        }
+
+        /* download boxes */
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 30px;
+
+        }
+
+        @media only screen and (max-width:600px) {
+            .container {
+                grid-template-columns: 1fr;
+                /* justify-content: center;
+                align-items: center; */
+           
+            }
+            .all{
+              width: 98vw;
+              margin-left: 50%;
+            }
+            .box{
+                margin-left:15%;
+            }
+         
+        }
+
+        .box {
+            display: grid;
+
+            margin-top: 20px;
+            width: 350px;
+            height: 150px;
+            justify-items: center;
+            font-size: 20px;
+            font-weight: bold;
+            border: 2px solid rgb(228, 226, 226);
+            background-color: rgb(228, 226, 226);
+            border-radius: 10px;
+
+        }
+
+        .lang,
+        .down {
+            margin-bottom: 31px;
+        }
+
+        .down {
+            height: 45px;
+            width: 180px;
+            border: 2px solid orange;
+            border-radius: 10px;
+            background-color: orange;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="log"><button class="logo">UE</button></div>
+
+
+        <h2 class="head"> UltraEdit </h2>
+        <h4> By Embarcadero</h4>
+
+
+        <nav>
+            <a href="Products"><select name="nav" id="nav">
+                    <option value="Products">Products</option>
+                </select></a>
+            <a href="Pricing"><select name="nav" id="nave">
+                    <option value="Pricing">Pricing</option>
+                </select></a>
+            <a href="Resouces"><select name="nav" id="na">
+                    <option value="Resources">Resources</option>
+                </select></a>
+            <a href="About us"><select name="nav" id="navo">Our company
+                    <option value="Our company">Our company</option>
+                </select></a>
+        </nav>
+
+
+        <button class="down2">Download</button>
+
+
+        <button class="icon">
+
+            <span class="fa-solid fa-globe"></span>
+            <select name="lang" id="lang">
+                <option value="English">English</option>
+                <option value="Korean">Korean</option>
+                <option value="Chinses">Chinses</option>
+                <option value="Thai">Thai</option>
+                <option value="Italian">Italian</option>
+                <option value="Hindi">Hindi</option>
+            </select>
+        </button>
+
+        <div class="bar">
+            <button class="fa-solid fa-magnifying-glass glasses"></button>
+        </div>
+
+
+    </header>
+      <div class="all">
+    <h1>Download UltraEdit for Windows</h1>
+    <p class="discrip line1">Download and try UltraEdit before you buy it! This download</p>
+    <p class="discrip line2">includes the full Windows version of the text editor.</p>
+
+    <div class="vers"><button class="version">Download Mac or Linux version</button></div>
+
+    <div class="main">
+
+        <div class="rel">
+            <div class="release">UE </div>
+        </div>
+
+        <h3>Download Ultraedit
+            <small>v2025.1(released 2025-10-10) Lastest changes</small>
+        </h3>
+
+    </div>
+    <!-- download boxes -->
+    <div class="container">
+
+        <div class="box eng ">English <p class="lang"> Includes all language</p>
+            <button class="down">Download 64-bit</button>
+        </div>
+
+        <div class="box ger"> Deutsch <p class="lang">German</p>
+            <button class="down">Download 64-bit</button>
+
+        </div>
+
+        <div class="box ita "> italiano <p class="lang">italian</p>
+            <button class="down">Download 64-bit</button>
+
+        </div>
+
+        <div class="box span">Espanol <p class="lang">Spanish</p>
+            <button class="down">Download 64-bit</button>
+
+        </div>
+
+        <div class="box fren"> francias<p class="lang">French</p>
+            <button class="down">Download 64-bit</button>
+
+        </div>
+
+        <div class="box braz">portugues brasileiro <p class="lang">Brazilian portuguese</p>
+            <button class="down">Download 64-bit</button>
+
+        </div>
+
+        <div class="box japn ">
+            <p class="lang">Japanes</p>
+            <button class="down">Download 64-bit</button>
+
+        </div>
+
+        <div class="box kor">
+            <p class="lang">Korean</p>
+            <button class="down">Download 64-bit</button>
+
+        </div>
+
+        <div class="box chi ">
+            <p class="lang">Chinese</p>
+            <button class="down">Download 64-bit</button>
+
+        </div>
+
+        <div class="box trad-chi">
+            <p class="lang">Traditional Chinese</p>
+            <button class="down">Download 64-bit</button>
+
+        </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
