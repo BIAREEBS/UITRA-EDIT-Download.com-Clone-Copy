@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # UltraEdit Website – My Custom Clone (Responsive & Modern UI)
 
 Welcome to my first ever fully self-made clone of the UltraEdit Download Page!
@@ -76,13 +75,7 @@ VS Code
 
 only (html and css project)
 
-🙌 Thanks for Visiting!
+## 🙌 Thanks for Visiting!
 
 Aapka project dekhne ka bohot shukriya!
 
-
-
-
-=======
-# UITRA-EDIT-Download.com-Clone-Copy
->>>>>>> 3a9d1000a47f9f518bf5cb500da194fee0bb7cfa
